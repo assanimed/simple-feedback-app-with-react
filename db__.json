@@ -1,0 +1,28 @@
+{
+    "users": [{
+            "id": "assanimed",
+            "firstName": "mohamed",
+            "lastname": "elmhassani",
+            "Location": "morocco"
+        },
+        {
+            "id": "oweis",
+            "firstName": "youssef",
+            "lastname": "oweis",
+            "Location": "United states"
+        },
+        {
+            "id": "fab",
+            "firstName": "james",
+            "lastname": "fabio",
+            "Location": "France"
+        },
+        {
+            "id": "mig",
+            "firstName": "miguel",
+            "lastname": "garcia",
+            "Location": "mexico"
+        }
+    ]
+
+}
