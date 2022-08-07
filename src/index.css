@@ -11,6 +11,20 @@ body {
     background-color: #202142;
     color: #fff;
     line-height: 1.6;
+    --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --sky: #00ccff;
+    --green: #22dddd;
+    --blue: #1300ff;
+    --dusk: #6600ff;
+    --purple: #9900ff;
+    --pink: #ff0066;
+    --red: #fe0222;
+    --orange: #fd7702;
+    --yellow: #ffbb00;
+    --background: var(--white);
+    --accent: var(--blue);
 }
 
 ul {
@@ -72,6 +86,14 @@ header {
     border: 1px #eee solid;
     transition: 0.3s;
 }
+
+
+/* .feedback-list {
+    padding: 26px;
+    background: #e25151;
+    margin-top: 30px;
+    border-radius: 21px 21px 0 0;
+} */
 
 .rating li label {
     position: absolute;
@@ -153,6 +175,7 @@ input:focus {
     width: 100px;
     height: 40px;
     cursor: pointer;
+    font-size: 17px;
 }
 
 .btn-primary {
@@ -229,4 +252,31 @@ input:focus {
     .input-group input {
         width: 80%;
     }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+a.back {
+    text-decoration: none;
+    font: 2em sans-serif;
+    /* padding: 2px; */
+    display: inline-block;
+    border: 2px solid #000;
+}
+
+a.back::before {
+    content: "⬅";
+}
+
+.activeLink {
+    background-color: purple;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px;
 }
