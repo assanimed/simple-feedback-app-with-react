@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-###### install dependencies 
+###### Install dependencies 
 ### `npm install`
 
-###### Start Server
+###### Start the  Server
 ### `npm start`
 
 ###### Perform Testing
@@ -28,7 +28,7 @@ In the project directory, you can run:
 ![Context API Provider](./public/_README_IMGS/context.png)
 
 
-### Header Component with Styled Component 
+### Header Component
 
 ![Context API Provider](./public/_README_IMGS/header.png)
 
